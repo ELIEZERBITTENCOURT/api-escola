@@ -162,3 +162,7 @@ CACHES = {
 
 SESSION_ENGINE ='django.contrib.session.backends.cache'
 SESSIONS_CACHE_ALIAS = "default"
+
+LOCALE_PATH = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
